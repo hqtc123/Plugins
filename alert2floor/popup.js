@@ -6,7 +6,7 @@ $(function(){
     chrome.tabs.sendMessage(tabs[0].id,{
       message:"sofa"
     },function(response){
-    
+
     })
   })
 })
