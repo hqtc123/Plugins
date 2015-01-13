@@ -21,7 +21,8 @@ function go(){
         var author_id = pair.author_id;
 
         noResultDiv.style.display = "none"
-        p_ele.innerHTML = author_id +" 刚发了一贴 "+title+";</br> 快去抢个2楼 !";
+        p_ele.innerHTML = "<strong>"+author_id +
+        "</strong> 刚刚发了一贴《"+title+"》！;</br> 快去抢个2楼 !";
         contentDiv.appendChild(p_ele);
       }
     })
