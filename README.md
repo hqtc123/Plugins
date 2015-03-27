@@ -1,4 +1,4 @@
-pystart
+Plugins
 =======
 
-Learn python
+chrome plugin
